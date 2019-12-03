@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import logo from "./logo.svg";
 import "./App.css";
+import Divtest from "../src/components/wrapper/wrapper"
 
 class App extends Component {
   render() {
@@ -11,6 +12,7 @@ class App extends Component {
             <img src={logo} className="App-logo" alt="logo" />
             <h2 className="discover">Discover Jarrod</h2>
           </div>
+          <Divtest></Divtest>
         </div >
       </div >
     );
