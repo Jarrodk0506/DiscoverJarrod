@@ -18,6 +18,20 @@
   font-size: 15px;
 }
 
+.picture{
+  border-radius: 50%;
+  height: 50%;
+  width: 20%;
+  position: absolute;
+  left: 40%;
+  top: 15%;
+  box-shadow: 0px 1px 1px 5px #afafaf;
+}
+
+.picturediv{
+  border-radius: 50%;
+}
+
 .App-header {
   background-color: #222;
   height: 100%;
@@ -26,7 +40,7 @@
   left: 0;
   color: white;
   box-shadow: 1px 5px 10px 10px #646464;
-  border-color: white;
+  border-color: rgb(22, 22, 22);
   border-width: 0px 2px 0px 0px;
   border-style: double;
 }
@@ -59,7 +73,6 @@ li{
 #linkButton{
   display: inline-block;
   border-radius: 50%;
-  margin-top: 10px;
   margin-bottom: 10px;
   border-width: 0px;
   padding: 0;
@@ -76,8 +89,8 @@ li{
 }
 
 #linkImage{
-  height: 30px;
-  width: 30px;
+  height: 25px;
+  width: 25px;
 }
 
 

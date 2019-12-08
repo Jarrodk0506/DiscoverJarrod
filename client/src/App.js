@@ -4,6 +4,7 @@ import "./App.css";
 import github from "./github.png"
 import linkedin from "./linkedin.jpg"
 import instagram from "./instagram.png"
+import picture from "./picture.jpg"
 import Divtest from "../src/components/wrapper/wrapper"
 
 
@@ -34,9 +35,11 @@ class App extends Component {
               </li>
             </ul>
           </div>
-        <div className="contentWrap">
-          <h1> Test font </h1>
-        </div>
+          <div className="contentWrap">
+            <div className="picturediv">
+              <img className="picture" src={picture}></img>
+            </div>
+          </div>
           {/* <Divtest></Divtest> */}
         </div >
       </div >
