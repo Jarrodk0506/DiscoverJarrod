@@ -2,11 +2,6 @@
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40px;
-}
-
 .container-fluid{
   padding: 0;
   width: 100%;
@@ -20,29 +15,15 @@
 
 .picture{
   border-radius: 50%;
-  height: 50%;
-  width: 20%;
+  height: 25%;
+  width: 15%;
   position: absolute;
-  left: 40%;
-  top: 15%;
-  box-shadow: 0px 1px 1px 5px #afafaf;
+  left: 46%;
+  top: 10%;
 }
 
 .picturediv{
   border-radius: 50%;
-}
-
-.App-header {
-  background-color: #222;
-  height: 100%;
-  width: 5%;
-  display: block;
-  left: 0;
-  color: white;
-  box-shadow: 1px 5px 10px 10px #646464;
-  border-color: rgb(22, 22, 22);
-  border-width: 0px 2px 0px 0px;
-  border-style: double;
 }
 
 ul {
@@ -60,27 +41,24 @@ li{
 }
 
 .contentWrap{
-  background-color: rgb(106, 150, 163);
+    background-color: rgb(25, 25, 25);
     height: 100%;
     width: 95%;
     right: 0;
     top: 0;
     position: absolute;
-    z-index: -1;
 }
 
-
-#linkButton{
-  display: inline-block;
-  border-radius: 50%;
-  margin-bottom: 10px;
-  border-width: 0px;
-  padding: 0;
-  background-color: #222;
+.content{
+  position: absolute;
+  right: 25%;
+  top: 40%;
+  margin-top: 15px;
+  color: white;
 }
 
-#linkButton:hover{
-  background-color: #222;
+.btn{
+margin-right: 5px;
 }
 
 .text{
@@ -88,10 +66,6 @@ li{
   margin: 0 auto;
 }
 
-#linkImage{
-  height: 25px;
-  width: 25px;
-}
 
 
 @keyframes App-logo-spin {

@@ -1,0 +1,34 @@
+.sidebar {
+    background-color: #222;
+    height: 100%;
+    width: 5%;
+    display: block;
+    left: 0;
+    color: white;
+    border-color: rgb(0, 0, 0);
+    border-width: 0px 2px 0px 0px;
+    border-style: double;
+  }
+
+.App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 40px;
+}
+
+#linkButton{
+    display: inline-block;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    border-width: 0px;
+    padding: 0;
+    background-color: #222;
+  }
+
+  #linkButton:hover{
+    background-color: #222;
+  }
+
+  #linkImage{
+    height: 25px;
+    width: 25px;
+  }
