@@ -10,26 +10,26 @@ class Sidebar extends Component {
     handleGitClick = e => {
         e.preventDefault();
         console.log("clicked");
-      }
+    }
 
 
     render() {
         return (
-            <div className="sidebar">
-                <img src={logo} className="App-logo" alt="logo" />
-                <p className="discover">Discover Jarrod</p>
-                <ul>
-                    <li>
-                        <button id="linkButton"><img onClick={this.handleGitClick} id="linkImage" src={github} alt="github" href="https://github.com/Jarrodk0506" target="_blank" /></button>
-                    </li>
-                    <li>
-                        <button id="linkButton"><img onClick={this.handleGitClick} id="linkImage" src={linkedin} alt="github" href="https://github.com/Jarrodk0506" target="_blank" /></button>
-                    </li>
-                    <li>
-                        <button id="linkButton"><img onClick={this.handleGitClick} id="linkImage" src={instagram} alt="github" href="https://github.com/Jarrodk0506" target="_blank" /></button>
-                    </li>
-                </ul>
-            </div>
+                <div className="sidebar">
+                    <img src={logo} className="App-logo" alt="logo" />
+                    <p className="discover">Discover Jarrod</p>
+                    <ul>
+                        <li>
+                            <button id="linkButton"><img onClick={this.handleGitClick} id="linkImage" src={github} alt="github" href="https://github.com/Jarrodk0506" target="_blank" /></button>
+                        </li>
+                        <li>
+                            <button id="linkButton"><img onClick={this.handleGitClick} id="linkImage" src={linkedin} alt="github" href="https://github.com/Jarrodk0506" target="_blank" /></button>
+                        </li>
+                        <li>
+                            <button id="linkButton"><img onClick={this.handleGitClick} id="linkImage" src={instagram} alt="github" href="https://github.com/Jarrodk0506" target="_blank" /></button>
+                        </li>
+                    </ul>
+                </div>
         );
     }
 }

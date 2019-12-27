@@ -12,8 +12,8 @@ class Home extends Component {
             <div className="content">
               <h4>Hi, My name is Jarrod Krasnoff and I am a</h4>
               <h1>Junior Full-Stack Web-Developer</h1>
-              <button className="btn btn-light">About me</button>
-              <button className="btn btn-light">Portfolio</button>
+              <button className="glow-on-hover" type="button">About me</button>
+              <button className="glow-on-hover" type="button">Portfolio</button>
             </div>
           </div>
     );
