@@ -7,6 +7,22 @@
     position: absolute;
 }
 
+button:focus {outline:0;}
+
+h1{
+    font-size: 60px;
+}
+
+.title{
+    position: relative;
+    left: 125px;
+}
+
+.buttons{
+    position: absolute;
+    left: 350px;
+}
+
 .glow-on-hover {
     width: 220px;
     height: 50px;
@@ -36,18 +52,22 @@
     opacity: 0;
     transition: opacity .3s ease-in-out;
     border-radius: 10px;
+    outline: none;
 }
 
 .glow-on-hover:active {
-    color: #000
+    color: #000;
+    outline: none;
 }
 
 .glow-on-hover:active:after {
     background: transparent;
+    outline: none;
 }
 
 .glow-on-hover:hover:before {
     opacity: 1;
+    outline: none;
 }
 
 .glow-on-hover:after {
@@ -60,6 +80,7 @@
     left: 0;
     top: 0;
     border-radius: 10px;
+    outline: none;
 }
 
 @keyframes glowing {
