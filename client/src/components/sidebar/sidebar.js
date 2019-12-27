@@ -17,7 +17,7 @@ class Sidebar extends Component {
         return (
             <div className="sidebar">
                 <img src={logo} className="App-logo" alt="logo" />
-                <h2 className="discover">Discover Jarrod</h2>
+                <p className="discover">Discover Jarrod</p>
                 <ul>
                     <li>
                         <button id="linkButton"><img onClick={this.handleGitClick} id="linkImage" src={github} alt="github" href="https://github.com/Jarrodk0506" target="_blank" /></button>
