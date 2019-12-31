@@ -1,3 +1,5 @@
+
+
 .App {
   text-align: center;
 }
@@ -13,18 +15,7 @@
   font-size: 15px;
 }
 
-.picture{
-  border-radius: 50%;
-  height: 25%;
-  width: 15%;
-  position: absolute;
-  left: 46%;
-  top: 10%;
-}
 
-.picturediv{
-  border-radius: 50%;
-}
 
 ul {
   position: absolute;

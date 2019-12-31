@@ -1,7 +1,13 @@
 import React, { Component } from "react";
-import "./about.css";
+import "./portfolio.css";
 
-class About extends Component {
+class Portfolio extends Component {
+
+    about = () => {
+        this.props.history.push({
+            pathname: "/about"
+        });
+    };
 
     home = () => {
         this.props.history.push({
@@ -9,22 +15,16 @@ class About extends Component {
         });
     };
 
-    portfolio = () => {
-        this.props.history.push({
-            pathname: "/portfolio"
-        });
-    };
-
     render() {
         return (
             <div className="contentWrap">
                 <div className="content">
-                    <div className="aboutTitle">
-                        <h1>We're talking aboot me now</h1>
+                    <div className="portfolioTitle">
+                        <h1>This is a portfolio</h1>
                     </div>
-                    <div className="aboutButtons">
+                    <div className="portfolioButtons">
                         <button className="glow-on-hover" onClick={this.home} type="button">Home</button>
-                        <button className="glow-on-hover" onClick={this.portfolio} type="button">Portfolio</button>
+                        <button className="glow-on-hover" onClick={this.about} type="button">About</button>
                     </div>
                 </div>
             </div>
@@ -32,4 +32,4 @@ class About extends Component {
     }
 }
 
-export default About;
+export default Portfolio;

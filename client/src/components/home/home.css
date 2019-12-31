@@ -1,13 +1,11 @@
-.home{
-    background-color: rgb(70, 70, 70);
-    height: 100%;
-    width: 90%;
-    right: 0;
-    top: 0;
-    position: absolute;
-}
+
 
 button:focus {outline:0;}
+
+.contentWrap{
+    height: 100%vh;
+    width: 90%vw;
+}
 
 h1{
     font-size: 60px;
@@ -57,15 +55,16 @@ h1{
 
 
 
-.title{
+.homeTitle{
     position: relative;
-    left: 125px;
-    bottom: 55px;
+    left: 15%;
+    bottom: 50px;
 }
 
-.buttons{
+.homeButtons{
     position: absolute;
-    left: 350px;
+    left: 40%;
+    top: 100%;
 }
 
 .glow-on-hover {

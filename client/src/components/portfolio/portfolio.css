@@ -1,3 +1,5 @@
+
+
 button:focus {outline:0;}
 
 .contentWrap{
@@ -8,17 +10,60 @@ button:focus {outline:0;}
 h1{
     font-size: 60px;
     padding-top: 15px;
+    -webkit-animation: color-change 10s infinite;
+    -moz-animation: color-change 10s infinite;
+    -o-animation: color-change 10s infinite;
+    -ms-animation: color-change 10s infinite;
+    animation: color-change 10s infinite;
 }
 
-.aboutTitle{
+@-webkit-keyframes color-change {
+    0% { color: white; }
+    25% { color: gray; }
+    50% { color: rgb(93, 201, 251); }
+    75% { color: gray; }
+    100% { color: white; }
+}
+@-moz-keyframes color-change {
+    0% { color: white; }
+    25% { color: gray; }
+    50% { color: rgb(93, 201, 251); }
+    75% { color: gray; }
+    100% { color: white; }
+}
+@-ms-keyframes color-change {
+    0% { color: white; }
+    25% { color: gray; }
+    50% { color: rgb(93, 201, 251); }
+    75% { color: gray; }
+    100% { color: white; }
+}
+@-o-keyframes color-change {
+    0% { color: white; }
+    25% { color: gray; }
+    50% { color: rgb(93, 201, 251); }
+    75% { color: gray; }
+    100% { color: white; }
+}
+@keyframes color-change {
+    0% { color: white; }
+    25% { color: gray; }
+    50% { color: rgb(93, 201, 251); }
+    75% { color: gray; }
+    100% { color: white; }
+}
+
+
+
+.portfolioTitle{
     position: relative;
-    left: 10%;
+    left: -15%;
     bottom: 50px;
 }
 
-.aboutButtons{
+.portfolioButtons{
     position: absolute;
-    left: 30%;
+    left: -13%;
     top: 138%;
 }
 
