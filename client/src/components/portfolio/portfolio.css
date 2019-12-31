@@ -79,6 +79,31 @@ h1{
     padding: 0;
 }
 
+.jumboContent{
+    position: fixed;
+    background: grey;
+    top: 7%;
+    width: 63%;
+    left: 23%;
+    height: 61%;
+    margin: 0;
+    padding: 0;
+}
+
+.carousel-item{
+    position: relative;
+    background-color: grey;
+    top: 0;
+    height: 381px;
+}
+
+.carousel-indicators{
+    position: fixed;
+    bottom: 32%;
+    left: 10%;
+
+}
+
 .portfolioButtons{
     position: fixed;
     left: 38%;
