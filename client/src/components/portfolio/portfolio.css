@@ -3,8 +3,13 @@
 button:focus {outline:0;}
 
 .contentWrap{
-    height: 100%vh;
-    width: 90%vw;
+    position: absolute;
+    height: 100vh;
+    width: 95vw;
+}
+
+.content{
+    position: absolute;
 }
 
 h1{
@@ -59,12 +64,27 @@ h1{
     position: relative;
     left: -15%;
     bottom: 50px;
+    background-color: white;
+    width: 100%;
+}
+
+.jumbotron{
+    background: #111;
+    position: fixed;
+    top: 5%;
+    width: 65%;
+    left: 22%;
+    height: 65%;
+    margin: 0;
+    padding: 0;
 }
 
 .portfolioButtons{
-    position: absolute;
-    left: -13%;
-    top: 138%;
+    position: fixed;
+    left: 38%;
+    bottom: 12%;
+    margin: 0;
+    padding: 0;
 }
 
 .glow-on-hover {

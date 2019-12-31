@@ -19,7 +19,7 @@ class Portfolio extends Component {
         return (
             <div className="contentWrap">
                 <div className="content">
-                    <div className="portfolioTitle">
+                    <div className="jumbotron">
                         <h1>This is a portfolio</h1>
                     </div>
                     <div className="portfolioButtons">
