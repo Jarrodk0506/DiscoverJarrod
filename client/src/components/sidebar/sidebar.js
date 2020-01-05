@@ -7,12 +7,6 @@ import logo from "../assets/logo.svg";
 
 class Sidebar extends Component {
 
-    handleGitClick = e => {
-        e.preventDefault();
-        console.log("clicked");
-    }
-
-
     render() {
         return (
                 <div className="sidebar">
@@ -20,13 +14,11 @@ class Sidebar extends Component {
                     <p className="discover">Discover Jarrod</p>
                     <ul>
                         <li>
-                            <button id="linkButton"><img onClick={this.handleGitClick} id="linkImage" src={github} alt="github" href="https://github.com/Jarrodk0506" target="_blank" /></button>
-                        </li>
+                            <button id="linkButton"><a href="https://github.com/Jarrodk0506" target="_blank"><img id="linkImage" src={github} alt="github" /></a></button>                        </li>
                         <li>
-                            <button id="linkButton"><img onClick={this.handleGitClick} id="linkImage" src={linkedin} alt="github" href="https://github.com/Jarrodk0506" target="_blank" /></button>
-                        </li>
+                            <button id="linkButton"><a href="https://linkedin.com/in/jarrod-krasnoff-tech" target="_blank"><img id="linkImage" src={linkedin} alt="github" /></a></button>                        </li>
                         <li>
-                            <button id="linkButton"><img onClick={this.handleGitClick} id="linkImage" src={instagram} alt="github" href="https://github.com/Jarrodk0506" target="_blank" /></button>
+                            <button id="linkButton"><a href="https://www.instagram.com/jdkrasnoff/?hl=en" target="_blank"><img id="linkImage" src={instagram} alt="github" /></a></button>
                         </li>
                     </ul>
                 </div>

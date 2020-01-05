@@ -38,22 +38,22 @@ class Portfolio extends Component {
                                 </ol>
                                 <div className="carousel-inner">
                                     <div className="carousel-item active">
-                                        <img src={kodex} className="d-block w-100" alt="..." />
+                                        <a href="https://github.com/cblakebovaird/Project2" target="_blank"><img src={kodex} className="d-block w-100" alt="..." /></a>
                                     </div>
                                     <div className="carousel-item">
-                                        <img src={shortcutz} className="d-block w-100" alt="..." />
+                                        <a href="https://github.com/Jarrodk0506/ShortCutz" target="_blank"><img src={shortcutz} className="d-block w-100" alt="..." /></a>
                                     </div>
                                     <div className="carousel-item">
-                                        <img src={trivia} className="d-block w-100" alt="..." />
+                                        <a href="https://jarrodk0506.github.io/Trivia-game/" target="_blank"><img src={trivia} className="d-block w-100" alt="..." /></a>
                                     </div>
                                     <div className="carousel-item">
-                                        <img src={wordGuess} className="d-block w-100" alt="..." />
+                                        <a href="https://jarrodk0506.github.io/Word-Guess-Game/" target="_blank"><img src={wordGuess} className="d-block w-100" alt="..." /></a>
                                     </div>
                                     <div className="carousel-item">
-                                        <img src={train} className="d-block w-100" alt="..." />
+                                        <a href="https://jarrodk0506.github.io/Train-Schedule/" target="_blank"><img src={train} className="d-block w-100" alt="..." /></a>
                                     </div>
                                     <div className="carousel-item">
-                                        <img src={noms} className="d-block w-100" alt="..." />
+                                        <a href="https://jarrodk0506.github.io/Project-1/index.html" target="_blank"><img src={noms} className="d-block w-100" alt="..." /></a>
                                     </div>
                                 </div>
                                 <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
