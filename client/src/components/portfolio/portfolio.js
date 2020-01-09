@@ -39,21 +39,39 @@ class Portfolio extends Component {
                                 <div className="carousel-inner">
                                     <div className="carousel-item active">
                                         <a href=" https://k0dex.herokuapp.com/" target="_blank" rel="noopener noreferrer"><img src={kodex} className="d-block w-100" alt="..." /></a>
+                                        <div className="carousel-text">
+                                            <p>Kodex</p>
+                                        </div>
                                     </div>
                                     <div className="carousel-item">
                                         <a href="https://github.com/Jarrodk0506/ShortCutz" target="_blank" rel="noopener noreferrer"><img src={shortcutz} className="d-block w-100" alt="..." /></a>
+                                        <div className="carousel-text">
+                                            <p>ShortCutz</p>
+                                        </div>
                                     </div>
                                     <div className="carousel-item">
                                         <a href="https://jarrodk0506.github.io/Trivia-game/" target="_blank" rel="noopener noreferrer"><img src={trivia} className="d-block w-100" alt="..." /></a>
+                                        <div className="carousel-text">
+                                            <p>Trivia</p>
+                                        </div>
                                     </div>
                                     <div className="carousel-item">
                                         <a href="https://jarrodk0506.github.io/Word-Guess-Game/" target="_blank" rel="noopener noreferrer"><img src={wordGuess} className="d-block w-100" alt="..." /></a>
+                                        <div className="carousel-text">
+                                            <p>word-guess-game</p>
+                                        </div>
                                     </div>
                                     <div className="carousel-item">
                                         <a href="https://jarrodk0506.github.io/Train-Schedule/" target="_blank" rel="noopener noreferrer"><img src={train} className="d-block w-100" alt="..." /></a>
+                                        <div className="carousel-text">
+                                            <p>Train</p>
+                                        </div>
                                     </div>
                                     <div className="carousel-item">
                                         <a href="https://jarrodk0506.github.io/Project-1/index.html" target="_blank" rel="noopener noreferrer"><img src={noms} className="d-block w-100" alt="..." /></a>
+                                        <div className="carousel-text">
+                                            <p>Noms</p>
+                                        </div>
                                     </div>
                                 </div>
                                 <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">

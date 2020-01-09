@@ -17,6 +17,20 @@ button:focus {outline:0;}
     color: white;
 }
 
+.d-block{
+    height: 100%;
+    opacity: 1;
+    transition: opacity .5s ease-out;
+    -moz-transition: opacity .5s ease-out;
+    -webkit-transition: opacity .5s ease-out;
+    -o-transition: opacity .5s ease-out;
+    z-index: 99;
+}
+
+.d-block:hover{
+    opacity:.5;
+}
+
 h1{
     font-size: 60px;
     padding-top: 15px;
@@ -65,61 +79,77 @@ h1{
 
 
 
-.portfolioTitle{
-    position: relative;
-    left: -15%;
-    bottom: 50px;
-    background-color: white;
-    width: 100%;
-}
 
 .jumbotron{
     background: #111;
     position: fixed;
     top: 5%;
-    width: 65%;
-    left: 22%;
+    width: 45%;
+    left: 50%;
     height: 65%;
     margin: 0;
     padding: 0;
     border-width: 2px;
     border-color:rgb(0, 0, 0);
     border-style: double;
-    opacity: .5;
+    /* opacity: .5;
     transition: opacity .5s ease-out;
     -moz-transition: opacity .5s ease-out;
     -webkit-transition: opacity .5s ease-out;
-    -o-transition: opacity .5s ease-out;
+    -o-transition: opacity .5s ease-out; */
     box-shadow: 1px 1px 8px 5px #888888;
 }
 
 .jumbotron:hover{
-    opacity:1;
+    opacity:1.5;
 }
 
 .jumboContent{
     position: fixed;
     background: grey;
     top: 7%;
-    width: 63%;
-    left: 23%;
+    width: 43%;
+    left: 51%;
     height: 61%;
     margin: 0;
     padding: 0;
 }
+
+.carousel-control-prev{
+    z-index: 100;
+    opacity: 1;
+}
+
+.carousel-control-next{
+    z-index: 100;
+    opacity: 1;
+}
+
 
 .carousel-item{
     position: relative;
     background-color: grey;
     top: 0;
     height: 381px;
+    z-index: 95;
 }
 
 .carousel-indicators{
     position: fixed;
     bottom: 26.3%;
-    left: 10%;
+    left: 47%;
+    z-index: 1000;
+}
 
+.carousel-text{
+    background-color: rgb(25, 25, 25);
+    position: fixed;
+    width: 35%;
+    height: 65%;
+    left: 10%;
+    top: 5%;
+    z-index: -100;
+    opacity: .8;
 }
 
 .portfolioButtons{
@@ -178,7 +208,6 @@ h1{
 }
 
 .glow-on-hover:after {
-    z-index: -1;
     content: '';
     position: absolute;
     width: 100%;
