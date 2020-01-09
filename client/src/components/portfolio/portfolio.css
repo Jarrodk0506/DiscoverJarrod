@@ -12,6 +12,11 @@ button:focus {outline:0;}
     position: absolute;
 }
 
+.cTitle{
+    size: 50px;
+    color: white;
+}
+
 h1{
     font-size: 60px;
     padding-top: 15px;

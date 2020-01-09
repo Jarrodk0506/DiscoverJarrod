@@ -14,11 +14,11 @@ class Sidebar extends Component {
                     <p className="discover">Discover Jarrod</p>
                     <ul>
                         <li>
-                            <button id="linkButton"><a href="https://github.com/Jarrodk0506" target="_blank"><img id="linkImage" src={github} alt="github" /></a></button>                        </li>
+                            <button id="linkButton"><a href="https://github.com/Jarrodk0506" target="_blank" rel="noopener noreferrer"><img id="linkImage" src={github} alt="github" /></a></button>                        </li>
                         <li>
-                            <button id="linkButton"><a href="https://linkedin.com/in/jarrod-krasnoff-tech" target="_blank"><img id="linkImage" src={linkedin} alt="github" /></a></button>                        </li>
+                            <button id="linkButton"><a href="https://linkedin.com/in/jarrod-krasnoff-tech" target="_blank" rel="noopener noreferrer"><img id="linkImage" src={linkedin} alt="github" /></a></button>                        </li>
                         <li>
-                            <button id="linkButton"><a href="https://www.instagram.com/jdkrasnoff/?hl=en" target="_blank"><img id="linkImage" src={instagram} alt="github" /></a></button>
+                            <button id="linkButton"><a href="https://www.instagram.com/jdkrasnoff/?hl=en" target="_blank" rel="noopener noreferrer"><img id="linkImage" src={instagram} alt="github" /></a></button>
                         </li>
                     </ul>
                 </div>
