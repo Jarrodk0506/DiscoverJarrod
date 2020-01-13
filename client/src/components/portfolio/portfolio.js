@@ -40,7 +40,7 @@ class Portfolio extends Component {
                                     <div className="carousel-item active">
                                         <a href=" https://k0dex.herokuapp.com/" target="_blank" rel="noopener noreferrer"><img src={kodex} className="d-block w-100" alt="..." /></a>
                                         <div className="carousel-text">
-                                            <p>Kodex</p>
+                                            <p>Kodex, a platform where code experts could get together and help each other fix problems with their code. Get ideas and find better practices. Create and edit your profile. Add your skills to the profile. Find top trending topics and what's new in the programing community Members can create posts where people from all over the nation can help solve problems with your code. </p><p>Technologies used: <ul className="techUsed"><li>Node.js</li><li>Express</li><li>MySQL</li><li>Passport-local</li> <li>Bcrypt</li><li> Handlebar</li></ul></p>
                                         </div>
                                     </div>
                                     <div className="carousel-item">

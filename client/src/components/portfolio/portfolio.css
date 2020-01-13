@@ -147,9 +147,13 @@ h1{
     width: 35%;
     height: 65%;
     left: 10%;
-    top: 5%;
+    top: 7%;
     z-index: -100;
     opacity: .8;
+}
+
+.techUsed{
+    left: 40%;
 }
 
 .portfolioButtons{
