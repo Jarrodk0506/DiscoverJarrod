@@ -44,7 +44,7 @@ class Portfolio extends Component {
                                     <div className="carousel-item">
                                         <a href="https://github.com/Jarrodk0506/ShortCutz" target="_blank" rel="noopener noreferrer"><img src={shortcutz} className="d-block w-100" alt="..." /></a>
                                         <div className="carousel-text">
-                                            <p>ShortCutz</p>
+                                            <p>ShortCutz</p><p>a Barber to Client platform that allows Barbers to work on their on time. Barbers can go online, Set appointments, and set up a network of clients. Clients can look at a Barbers profile and see if they like a Barbers cutting style before booking them.</p><p>Technologies used: <ul className="techUsed"><li>Node.js</li><li>Express</li><li>MongoDB</li><li>Passport-local</li><li>React</li></ul></p>
                                         </div>
                                     </div>
                                     <div className="carousel-item">
@@ -62,7 +62,7 @@ class Portfolio extends Component {
                                     <div className="carousel-item">
                                         <a href="https://jarrodk0506.github.io/Project-1/index.html" target="_blank" rel="noopener noreferrer"><img src={noms} className="d-block w-100" alt="..." /></a>
                                         <div className="carousel-text">
-                                            <p>Noms</p>
+                                            <p>Noms</p><p>is a Recipe / Brewery search bar. Through Noms you can find what recipes to cook for breakfast, lunch, or dinner based on what ever ingredient you put into the search or which ever recipe you may be looking for. On the Brewery side if you decide you don't want to cook, Find a brewery near you based off of your zipcode!</p><p>Technologies used: <ul className="techUsed"><li>jQuery</li><li>Materialize</li><li>AJAX and API calls</li></ul></p>
                                         </div>
                                     </div>
                                 </div>

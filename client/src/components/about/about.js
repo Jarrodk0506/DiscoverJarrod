@@ -36,7 +36,9 @@ class About extends Component {
                             interested in coding robotics, Video games, and am also interested in learning graphic design. Now that
                             I've found the career field I love I'm excited to learn as much as I possibly can about everything.
                         </p>
-
+                        <p>
+                            Some Technologies I've learned so far : React, Node.JS, MySql, MongoDB, Handlebars, AJAX, API, HTML, CSS, Javascript, and a little bit of PHP and Laravel for PHP.
+                        </p>
                     </div>
                     <div className="aboutButtons">
                         <button className="glow-on-hover" onClick={this.home} type="button">Home</button>
