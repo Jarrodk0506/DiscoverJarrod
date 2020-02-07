@@ -2,10 +2,7 @@
 
 button:focus {outline:0;}
 
-.contentWrap{
-    height: 100%vh;
-    width: 90%vw;
-}
+
 
 h1{
     font-size: 60px;
@@ -131,4 +128,23 @@ h1{
     0% { background-position: 0 0; }
     50% { background-position: 400% 0; }
     100% { background-position: 0 0; }
+}
+
+
+@media screen and (max-width: 375px) {
+
+
+    .homeButtons{
+        position: absolute;
+        left: 27%;
+        top: 10%;
+
+    }
+
+    .homeTitle{
+        position: relative;
+        left: 17%;
+        bottom: 400px;
+    }
+
 }

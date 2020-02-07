@@ -22,7 +22,7 @@ class Portfolio extends Component {
 
     render() {
         return (
-            <div className="contentWrap">
+            <div className="container-fluid contentWrap">
                 <div className="content">
                     <div className="jumbotron">
                         <div className="jumboContent">
@@ -38,13 +38,13 @@ class Portfolio extends Component {
                                     <div className="carousel-item active">
                                         <a href=" https://k0dex.herokuapp.com/" target="_blank" rel="noopener noreferrer"><img src={kodex} className="d-block w-100" alt="..." /></a>
                                         <div className="carousel-text">
-                                            <p>Kodex</p><p> A platform where code experts could get together and help each other fix problems with their code. Get ideas and find better practices. Create and edit your profile. Add your skills to the profile. Find top trending topics and what's new in the programing community Members can create posts where people from all over the nation can help solve problems with your code. </p><p>Technologies used: <ul className="techUsed"><li>Node.js</li><li>Express</li><li>MySQL</li><li>Passport-local</li> <li>Bcrypt</li><li> Handlebar</li></ul></p>
+                                            <p>Kodex</p><p> A platform where code experts could get together and help each other fix problems with their code. Get ideas and find better practices. Create and edit your profile. Add your skills to the profile. Find top trending topics and what's new in the programing community Members can create posts where people from all over the nation can help solve problems with your code. </p><p className="techUsedTitle">Technologies used: <ul className="techUsed"><li>Node.js</li><li>Express</li><li>MySQL</li><li>Passport-local</li> <li>Bcrypt</li><li> Handlebar</li></ul></p>
                                         </div>
                                     </div>
                                     <div className="carousel-item">
                                         <a href="https://github.com/Jarrodk0506/ShortCutz" target="_blank" rel="noopener noreferrer"><img src={shortcutz} className="d-block w-100" alt="..." /></a>
                                         <div className="carousel-text">
-                                            <p>ShortCutz</p><p>A Barber to Client platform that allows Barbers to work on their on time. Barbers can go online, Set appointments, and set up a network of clients. Clients can look at a Barbers profile and see if they like a Barbers cutting style before booking them.</p><p>Technologies used: <ul className="techUsed"><li>Node.js</li><li>Express</li><li>MongoDB</li><li>Passport-local</li><li>React</li></ul></p>
+                                            <p>ShortCutz</p><p>A Barber to Client platform that allows Barbers to work on their on time. Barbers can go online, Set appointments, and set up a network of clients. Clients can look at a Barbers profile and see if they like a Barbers cutting style before booking them.</p><p className="techUsedTitle">Technologies used: <ul className="techUsed"><li>Node.js</li><li>Express</li><li>MongoDB</li><li>Passport-local</li><li>React</li></ul></p>
                                         </div>
                                     </div>
                                     <div className="carousel-item">
@@ -62,7 +62,7 @@ class Portfolio extends Component {
                                     <div className="carousel-item">
                                         <a href="https://jarrodk0506.github.io/Project-1/index.html" target="_blank" rel="noopener noreferrer"><img src={noms} className="d-block w-100" alt="..." /></a>
                                         <div className="carousel-text">
-                                            <p>Noms</p><p>Is a recipe / Brewery search bar. Through Noms you can find what recipes to cook for breakfast, lunch, or dinner based on what ever ingredient you put into the search or which ever recipe you may be looking for. On the Brewery side if you decide you don't want to cook, Find a brewery near you based off of your zipcode!</p><p>Technologies used: <ul className="techUsed"><li>jQuery</li><li>Materialize</li><li>AJAX and API calls</li></ul></p>
+                                            <p>Noms</p><p>Is a recipe / Brewery search bar. Through Noms you can find what recipes to cook for breakfast, lunch, or dinner based on what ever ingredient you put into the search or which ever recipe you may be looking for. On the Brewery side if you decide you don't want to cook, Find a brewery near you based off of your zipcode!</p><p className="techUsedTitle">Technologies used: <ul className="techUsed"><li>jQuery</li><li>Materialize</li><li>AJAX and API calls</li></ul></p>
                                         </div>
                                     </div>
                                 </div>

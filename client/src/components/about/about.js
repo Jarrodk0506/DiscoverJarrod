@@ -17,7 +17,7 @@ class About extends Component {
 
     render() {
         return (
-            <div className="contentWrap">
+            <div className="container-fluid contentWrap">
                 <div className="content">
                     <div className="aboutTitle">
                         <p>

@@ -2,11 +2,6 @@
 
 button:focus {outline:0;}
 
-.contentWrap{
-    position: absolute;
-    height: 100vh;
-    width: 95vw;
-}
 
 .content{
     position: absolute;
@@ -92,11 +87,6 @@ h1{
     border-width: 2px;
     border-color:rgb(0, 0, 0);
     border-style: double;
-    /* opacity: .5;
-    transition: opacity .5s ease-out;
-    -moz-transition: opacity .5s ease-out;
-    -webkit-transition: opacity .5s ease-out;
-    -o-transition: opacity .5s ease-out; */
     box-shadow: 1px 1px 8px 5px #888888;
 }
 
@@ -152,9 +142,16 @@ h1{
     opacity: .8;
 }
 
-.techUsed{
+.techUsedTitle{
+    position: absolute;
     top: 55%;
-    left: 40%;
+    left: 30%;
+}
+
+.techUsed{
+    position: absolute;
+    top: 100%;
+    left: 15%;
 }
 
 .portfolioButtons{
@@ -228,4 +225,42 @@ h1{
     0% { background-position: 0 0; }
     50% { background-position: 400% 0; }
     100% { background-position: 0 0; }
+}
+
+@media screen and (max-width: 375px) {
+
+    .jumbotron{
+        left: 0;
+        top: 0;
+        width: 375px;
+        height: 390px;
+    }
+    
+    .jumboContent{
+        left: 5px;
+        top: 5px;
+        width: 365px;
+        height: 100px;
+    }
+
+    .carousel-text{
+        top: 410px;
+        left: 5px;
+        font-size: 12px;
+    }
+
+    .techUsedTitle{
+        top: 10px;
+        left: 240px;
+    }
+
+    .portfolioButtons{
+        bottom: 50px;
+    }
+
+    .carousel-indicators{
+        top: 380px;
+        left: 15px;
+    }
+
 }

@@ -1,10 +1,5 @@
 button:focus {outline:0;}
 
-.contentWrap{
-    height: 100%vh;
-    width: 90%vw;
-}
-
 
 .aboutTitle{
     position: relative;
@@ -83,3 +78,24 @@ button:focus {outline:0;}
     50% { background-position: 400% 0; }
     100% { background-position: 0 0; }
 }
+
+@media screen and (max-width: 375px) {
+
+    .container-fluid{
+        height:1270px;
+    }
+
+    .aboutTitle{
+        position: relative;
+        left: 15%;
+        bottom: 500px;
+    }
+    
+    .aboutButtons{
+        position: absolute;
+        left: 25%;
+        top: 40%;
+    }
+    
+  
+  }

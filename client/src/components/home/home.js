@@ -17,7 +17,7 @@ class Home extends Component {
 
   render() {
     return (
-      <div className="contentWrap">
+      <div className="container-fluid contentWrap homeContainer">
         <div className="content">
           <div className="homeTitle">
             <h4>Hi, My name is Jarrod Krasnoff and I am a</h4>
